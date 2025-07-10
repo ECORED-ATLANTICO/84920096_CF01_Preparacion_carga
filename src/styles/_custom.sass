@@ -15,12 +15,13 @@
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
+
+
 .banner-principal .tarjeta
   background-position: left 50% !important
 
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 500px !important  
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
@@ -28,5 +29,47 @@
 .banner-interno__titulo__icono i
   color: $color-primario
 
+.banner-interno__fondo
+  background-image: url("../assets/curso/banner_interno.png") !important
+
+
 figcaption
   font-weight: normal
+
+.bg-color
+  &-1
+    background-color: #C3F3FB
+  &-2
+    background-color: #FBF4C9
+  &-3
+    background-color: #EBE9F0
+  &-4
+    background-color: #DCE8FA
+  &-info
+    background-color: #E8EEFD
+  &-sintesis
+    background-color: #F6F6F6
+  &-white
+    background-color: #fff
+
+
+// Full Width Background
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.bg-fondo
+  //&-1
+    background-image: url("../assets/bg/bg1.png") !important
+    background-position: top
+  //&-2
+    // background-image: url("../assets/bg/bg2.png") !important
+    background-position: bottom
+  //&-slider
+    background-image: url("../assets/bg/bg-slider.svg") !important
+    background-position: bottom
