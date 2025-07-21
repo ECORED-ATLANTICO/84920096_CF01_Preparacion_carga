@@ -37,25 +37,44 @@
 .banner-interno__fondo
   background-image: url("../assets/curso/banner_interno.png") !important
 
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $color-sistema-texto !important
 
 figcaption
   font-weight: normal
 
 .bg-color
   &-1
-    background-color: #C3F3FB
+    background-color: #F2F6FE !important
   &-2
-    background-color: #FBF4C9
+    background-color: #D3E0FD !important
   &-3
-    background-color: #EBE9F0
+    background-color: #BCF0EF  !important
   &-4
-    background-color: #DCE8FA
+    color: #D7DADD
+  &-5
+    background: linear-gradient(0deg,rgba(18, 38, 63, 1) 0%, rgba(145, 179, 250, 1) 100%)
+  &-6
+    background-color: #91B3FA !important
+  &-7
+    background-color: #57DBD8 !important
+  &-8
+    background-color: #D2E1F1
+  &-9
+    background-color: #EAECF0
+  &-10
+    color: #35ACA9
+  &-11
+    background-color: #F4F5F8
+  &-12
+    background: linear-gradient(0deg,rgba(222, 222, 222, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(222, 222, 222, 1) 100%)
   &-info
     background-color: #E8EEFD
   &-sintesis
     background-color: #F6F6F6
   &-white
     background-color: #fff
+
 
 
 // Full Width Background
@@ -67,14 +86,137 @@ figcaption
   @media screen and (max-width: $bp-max-sm)
     padding-left: 1.5rem
     padding-right: 1.5rem
+.bg-full-width-2
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
 
 .bg-fondo
-  //&-1
-    background-image: url("../assets/bg/bg1.png") !important
+  &-1
+    background-image: url("../assets/curso/bg1.png") !important
     background-position: top
-  //&-2
-    // background-image: url("../assets/bg/bg2.png") !important
-    background-position: bottom
+  &-2
+    background-image: url("../assets/curso/bg2.png") !important
+    background-position: center
+  &-3
+    background-image: url("../assets/curso/bg3.svg") !important
+    background-position: center
+    @media screen and (max-width: $bp-max-sm)
+      background-image: url("../assets/curso/bg4.svg") !important
+      background-position: center
+      background-repeat: no-repeat
+      background-size: cover
+    @media screen and (max-width: $bp-max-xs)
+      background-image: none !important
+      background-color: #ffff
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+      padding: 20px;
+      border-radius: 8px; /* Opcional, para bordes redondeados */
+  &-4
+    background-image: url("../assets/curso/bg5.svg") !important
+    background-position: center
+    @media screen and (max-width: $bp-max-sm)
+      background-image: url("../assets/curso/bg4.svg") !important
+      background-position: center
+      background-repeat: no-repeat
+      background-size: cover
+    @media screen and (max-width: $bp-max-xs)
+      background-image: none !important
+      background-color: #ffff
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+      padding: 20px;
+      border-radius: 8px; /* Opcional, para bordes redondeados */
+
   //&-slider
     background-image: url("../assets/bg/bg-slider.svg") !important
     background-position: bottom
+
+/////////IMG_100%_CAJON_MEDIO/////////
+.pst
+  position: relative
+  z-index: 2
+  &-1
+    display: inline-block
+  &-2
+    position: absolute
+    width: 120px
+    top: 39%
+    right: 5%
+
+.banner-text
+  background: linear-gradient(0deg,rgba(222, 222, 222, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(222, 222, 222, 1) 100%)
+  border-radius: 10px
+  padding: 20px 30px
+  margin-top: -60px
+
+.tarjeta-avatar-b .tarjeta 
+    width: 100%;
+    margin-left: -14%;
+    padding-left: 7%;
+
+/////////CUSTOM TABS-C//////////
+.tabs-c__header 
+  margin-bottom: 0
+.tabs-c__content-item
+  background-color: #F7F7F7
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(255, 247, 230, 1) 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #91B3FA
+  border-bottom-right-radius: 10px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: -30px
+  width: 50px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 20px
+
+.img-infografica__item, .img-infografica-b__item
+  width: 5.5%
+.img-infografica__card
+  background-color: #F6F6F6
+
+///////////////TABLAS/////////////////// 
+.tab
+  table td
+    text-align: start !important
+  th, td, table thead th, .tabla-a th 
+    border: 2px solid #B5B5B5
+  table
+    table-layout: auto
+  
