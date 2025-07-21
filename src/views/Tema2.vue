@@ -407,18 +407,18 @@
 
         p.mb-5 Podemos decir que la normativa busca garantizar que las operaciones logísticas sean seguras, eficientes y legales, minimizando riesgos para trabajadores, mercancías y medio ambiente.
 
-        .bg-fondo-3.mb-5
-          .p-4.p-md-5
+        .bg-fondo-4.mb-5
+          .px-4.px-md-5
             .row.align-items-center.justify-content-end
-              .col-10.col-lg-3.mb-3.mb-lg-0
+              .col-10.col-lg-3.mb-3.mb-lg-0.order-lg-2
                 figure
                   img(src="@/assets/curso/tema2/17.svg", data-aos="zoom-in")
-              .col-lg-9(data-aos="fade-left")
+              .col-lg-9(data-aos="fade-left").order-lg-1
                 .row.align-items-center
                   .col-lg-auto
                     img.d-none.d-lg-flex(src="@/assets/curso/tema2/17-1.svg", style="max-width: 90px").mx-auto
                   .col-lg
-                    p.mb-0 Podemos concluir que la unitarización de la carga no solo consiste en agrupar mercancías, sino que también mejora la eficiencia de los procesos logísticos y optimiza la productividad dentro de la cadena de suministro. Su correcta aplicación permite un manejo más ágil y organizado de los productos, facilitando su transporte y almacenamiento.            
+                    p.mb-0 Colombia cuenta con un conjunto de normas que regulan la manipulación de carga, enfocadas en seguridad laboral, transporte y almacenamiento. Las principales son:           
 
       
 
