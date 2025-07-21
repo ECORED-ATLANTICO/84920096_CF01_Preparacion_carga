@@ -106,7 +106,7 @@
             figure
               img(src="@/assets/curso/tema1/9.svg", data-aos="zoom-in")
           .col-lg-8
-            LineaTiempoD.color-secundario
+            LineaTiempoD.color-acento-contenido
               div(numero="1" titulo="Propiedades físicas") 
                 ul.lista-ul--color.lista-ul--separador
                   li.d-flex

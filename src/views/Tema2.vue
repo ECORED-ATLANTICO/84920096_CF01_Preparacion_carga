@@ -407,7 +407,7 @@
 
         p.mb-5 Podemos decir que la normativa busca garantizar que las operaciones logísticas sean seguras, eficientes y legales, minimizando riesgos para trabajadores, mercancías y medio ambiente.
 
-        .bg-fondo-4.mb-5
+        .bg-fondo-4
           .px-4.px-md-5
             .row.align-items-center.justify-content-end
               .col-10.col-lg-3.mb-3.mb-lg-0.order-lg-2
@@ -419,9 +419,254 @@
                     img.d-none.d-lg-flex(src="@/assets/curso/tema2/17-1.svg", style="max-width: 90px").mx-auto
                   .col-lg
                     p.mb-0 Colombia cuenta con un conjunto de normas que regulan la manipulación de carga, enfocadas en seguridad laboral, transporte y almacenamiento. Las principales son:           
+    
+    .row.mb-5
+      .col-lg-4.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema2/18.png", data-aos="zoom-in")
+      .col-lg-8
+        LineaTiempoD.color-acento-contenido
+          p.text-small(numero="1" titulo="Decreto  1072 de 2015 (Decreto único reglamentario del trabajo)") Establece las normas de Seguridad y Salud en el Trabajo (SST) para manipulación de cargas e incluye requisitos para equipos, capacitación y prevención de riesgos.
+          
+          p.text-small(numero="2" titulo="Resolución 1409 de 2012 (Ministerio del Trabajo)") Regula la manipulación manual de cargas (pesos máximos, técnicas ergonómicas), obliga a evaluar riesgos en tareas repetitivas o con sobreesfuerzo.
+          
+          p.text-small(numero="3" titulo="Ley 769 de 2002 (Código Nacional de Tránsito)") Normas para el transporte terrestre de carga (fijación, peso máximo y dimensiones), exige el uso de cinchos y dispositivos de sujeción homologados.
+          
+          p.text-small(numero="4" titulo="Decreto 1609 de 2002 (Manejo de mercancías peligrosas)") Regula el transporte, almacenamiento y manipulación de sustancias peligrosas (químicos, inflamables y explosivos).
 
-      
+    .bg-full-width-2.bg-fondo-2.mb-5
+      .px-4.p-md-5
+        h5.mb-5.text-center Además, Colombia también cuenta con normas técnicas para la manipulación de la carga:
+        .row.justify-content-center
+          .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
+            //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
+            //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+            //- estas clases tambien tienen un modificador --borde
+            .tarjeta--boton.color-acento-contenido.h-100.p-4
+              div.justify-content-end.d-flex
+                h3.mb-0.pst-1.bg-color-4 01
+              .row.justify-content-center.mb-3
+                .col-10
+                  figure
+                    img(src='@/assets/curso/tema2/19.svg', alt='Texto que describa la imagen')
 
+              h5.text-center NTC 5611
+              p.text-center Almacenamiento de productos sólidos a granel.
+
+          .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-down")
+            //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
+            //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+            //- estas clases tambien tienen un modificador --borde
+            .tarjeta--boton.color-acento-contenido.h-100.p-4
+              div.justify-content-end.d-flex
+                h3.mb-0.pst-1.bg-color-4 02
+              .row.justify-content-center.mb-3
+                .col-10
+                  figure
+                    img(src='@/assets/curso/tema2/20.svg', alt='Texto que describa la imagen')
+
+              h5.text-center NTC 1694
+              p.text-center Seguridad en equipos de izaje (grúas y montacargas).
+
+          .col-sm-6.col-lg-3.mb-4.mb-sm-0(data-aos="fade-up")
+            //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
+            //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+            //- estas clases tambien tienen un modificador --borde
+            .tarjeta--boton.color-acento-contenido.h-100.p-4
+              div.justify-content-end.d-flex
+                h3.mb-0.pst-1.bg-color-4 03
+              .row.justify-content-center.mb-3
+                .col-10
+                  figure
+                    img(src='@/assets/curso/tema2/21.svg', alt='Texto que describa la imagen')
+              h5.text-center NTC 5378
+              p.text-center Requisitos para estibas y sujeción de carga en transporte.
+    
+    .row.justify-content-center
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido
+          h5 Entidades reguladoras
+
+        .row.justify-content-center.align-items-center
+          .col-lg-10
+            ImagenInfografica.color-acento-botones
+              template(v-slot:imagen)
+                figure.mb-3
+                  img.d-none.d-lg-flex(src='@/assets/curso/tema2/23.svg', alt='', style="max-width: 1106px;").mx-auto
+                  img.d-lg-none(src='@/assets/curso/tema2/23-1.svg', alt='', style="max-width: 1106px;").mx-auto
+                figcaption Fuente: SENA, 2025
+    
+              .bg-color-white.box-shadow.p-3(x="5.3%" y="41.5%" numero="+")
+                .row
+                  .col-lg-auto
+                    figure
+                      img.d-none.d-lg-flex(src='@/assets/curso/tema2/23-01.svg', alt='', style="max-width: 70px;").mx-auto
+                  .col-lg
+                    h5 Mintrabajo
+                    p Vigila el cumplimiento de normas de seguridad laboral.
+
+    
+              .bg-color-white.box-shadow.p-3(x="21%" y="75.5%" numero="+")
+                .row
+                  .col-lg-auto
+                    figure
+                      img.d-none.d-lg-flex(src='@/assets/curso/tema2/23-02.svg', alt='', style="max-width: 70px;").mx-auto
+                  .col-lg
+                    h5 Mintransporte
+                    p Regula el transporte de carga (terrestre, fluvial y aéreo).
+    
+              .bg-color-white.box-shadow.p-3(x="77.7%" y="76.7%" numero="+")
+                .row
+                  .col-lg-auto
+                    figure
+                      img.d-none.d-lg-flex(src='@/assets/curso/tema2/23-03.svg', alt='', style="max-width: 70px;").mx-auto
+                  .col-lg
+                    h5 INVIMA
+                    p Controla manipulación de carga perecedera.
+    
+              .bg-color-white.box-shadow.p-3(x="94.7%" y="41.5%" numero="+")
+                .row
+                  .col-lg-auto
+                    figure
+                      img.d-none.d-lg-flex(src='@/assets/curso/tema2/23-04.svg', alt='', style="max-width: 70px;").mx-auto
+                  .col-lg
+                    h5 ANLA
+                    p Supervisa manipulación de residuos peligrosos.
+    
+    separador
+
+    #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 2.5 Buenas prácticas 
+    
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema2/24.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Las buenas prácticas en manipulación de carga consisten en procedimientos organizados y técnicas mejoradas que aseguran que el traslado, almacenamiento y transporte de mercancías se lleven a cabo de la siguiente forma:
+    
+    .bg-full-width-2.bg-fondo-2
+      .px-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-lg-6
+            ImagenInfografica.color-acento-botones
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema2/25.svg', alt='', style="max-width: 1106px;").mx-auto
+    
+              .bg-color-white.box-shadow.p-3(x="17%" y="92.5%" numero="+")
+                h5 Segura
+                p Protegiendo la integridad de los trabajadores, previniendo daños a la carga y cumpliendo normativas laborales.
+    
+              .bg-color-white.box-shadow.p-3(x="51%" y="92.5%" numero="+")
+                h5 Eficiente
+                p Maximizando la productividad, minimizando tiempos y costos operativos y optimizando el uso de espacios y recursos.
+    
+              .bg-color-white.box-shadow.p-3(x="84%" y="92.5%" numero="+")
+                h5 Sostenible
+                p Reduciendo el impacto ambiental y promoviendo la economía circular.
+
+    .row.justify-content-center.mb-5
+      .col-lg-7
+        div.p-3.bg-color-8.tarjeta
+          h5.mb-0.text-center Se presentan las acciones claves para las buenas prácticas de manipulación de carga:
+    
+    .bg-full-width.bg-fondo-1
+      .px-4.p-md-5
+        .row.mb-5
+          .col-lg-4.mb-3.mb-lg-0
+            figure
+              img(src="@/assets/curso/tema2/26.svg", data-aos="zoom-in")
+          .col-lg-8
+            .bg-fondo-5.tarjeta
+              .p-4.p-md-5
+                SlyderA(tipo="b").bg-white.p-3.tarjeta
+                  div.p-3
+                    h5.mb-3 Reducción de embalajes
+                    ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
+                      li.d-flex.mb-2
+                        i.fas.fa-circle-check
+                        p.mb-0 Uso de materiales reutilizables como contenedores de plástico retornables.
+                      li.d-flex.mb-0
+                        i.fas.fa-circle-check
+                        p.mb-0 Diseño de empaques biodegradables (norma NTC 6011).
+                  div.p-3
+                    h5.mb-3 Energías limpias
+                    ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
+                      li.d-flex.mb-2
+                        i.fas.fa-circle-check
+                        p.mb-0 Montacargas con baterías de iones de litio (50 % menos consumo vs. plomo-ácido).
+                      li.d-flex.mb-0
+                        i.fas.fa-circle-check
+                        p.mb-0 Paneles solares en techos de almacenes.
+                  div.p-3
+                    h5.mb-3 Logística inversa
+                    ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
+                      li.d-flex.mb-2
+                        i.fas.fa-circle-check
+                        p.mb-0 Reciclaje de palés y plásticos mediante puntos verdes en centros de distribución.
+            
+        .row.justify-content-center.mb-5
+          .col-lg-9
+            div.p-3.bg-color-8.tarjeta
+              h5.mb-0.text-center Para la implementación de las buenas prácticas en la manipulación de la carga, se deben realizar los siguientes pasos:
+        
+        .row.justify-content-center.align-items-center
+          .col-lg-4
+            ImagenInfografica.color-acento-botones
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema2/27.png', alt='', style="max-width: 1106px;").mx-auto
+              .row.mb-5(x="17%" y="100%" numero="+")
+                .col-md-6.col-xl.mb-4.mb-xl-0
+                  //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
+                  //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+                  //- estas clases tambien tienen un modificador --borde
+                  .tarjeta-numerada.color-acento-botones.p-5.bg-color-white
+                    .tarjeta-numerada__numero
+                      .h2 1
+                    h5.mb-3.bg-color-13 Diagnóstico inicial
+                    ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
+                      li.d-flex.mb-2
+                        i.fas.fa-circle-check.bg-color-13
+                        p.mb-0 Identificar puntos críticos.
+                      li.d-flex.mb-0
+                        i.fas.fa-circle-check.bg-color-13
+                        p.mb-0 Priorizar áreas de mejora.
+              .row.mb-5(x="53%" y="100%" numero="+")
+                .col-md-6.col-xl.mb-4.mb-xl-0
+                  //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
+                  //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+                  //- estas clases tambien tienen un modificador --borde
+                  .tarjeta-numerada.color-acento-botones.p-5.bg-color-white
+                    .tarjeta-numerada__numero
+                      .h2 2
+                    h5.mb-3.bg-color-13 Plan de acción
+                    ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
+                      li.d-flex.mb-2
+                        i.fas.fa-circle-check.bg-color-13
+                        p.mb-0 Capacitaciones.
+                      li.d-flex.mb-0
+                        i.fas.fa-circle-check.bg-color-13
+                        p.mb-0 Adquisición de equipos/tecnología.
+              .row.mb-5(x="87%" y="100%" numero="+")
+                .col-md-6.col-xl.mb-4.mb-xl-0
+                  //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
+                  //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+                  //- estas clases tambien tienen un modificador --borde
+                  .tarjeta-numerada.color-acento-botones.p-5.bg-color-white
+                    .tarjeta-numerada__numero
+                      .h2 3
+                    h5.mb-3.bg-color-13 Monitoreo continuo
+                    ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
+                      li.d-flex.mb-2
+                        i.fas.fa-circle-check.bg-color-13
+                        p.mb-0 Indicadores de desempeño.
+                      li.d-flex.mb-0
+                        i.fas.fa-circle-check.bg-color-13
+                        p.mb-0 Auditorías periódicas.
+    
+              
 </template>
 
 <script>
