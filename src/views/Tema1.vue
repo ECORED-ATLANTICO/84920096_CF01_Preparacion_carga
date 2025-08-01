@@ -82,7 +82,7 @@
           span Dimensiones clave
         figure.mb-5
           img(src='@/assets/curso/tema1/7.svg', alt='En la figura se presentan las 3 dimensiones claves que abarca el concepto de carga. Carga Físca Operacional Económica', data-aos="zoom-in")
-          figcaption Fuente: Sena, 2025.
+          figcaption <b>Fuentes:</b> Sena, 2025.
 
     separador
 
@@ -263,18 +263,18 @@
                       ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
                         li.d-flex.mb-1.pb-1
                           i.fas.fa-circle-check.bg-color-14
-                          p.mb-0 Peso
+                          p.mb-0 Peso.
                         li.d-flex.mb-0
                           i.fas.fa-circle-check.bg-color-14
-                          p.mb-0 Volumen
+                          p.mb-0 Volumen.
                     .col-lg-4
                       ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
                         li.d-flex.mb-1.pb-1
                           i.fas.fa-circle-check.bg-color-14
-                          p.mb-0 Densidad
+                          p.mb-0 Densidad.
                         li.d-flex.mb-0
                           i.fas.fa-circle-check.bg-color-14
-                          p.mb-0 Resistencia
+                          p.mb-0 Resistencia.
                 .tarjeta-numerada.color-acento-contenido.p-3.bg-color-white.mb-3.pst-3(data-aos="fade-right")
                   .tarjeta-numerada__numero
                     .h2 2
@@ -285,10 +285,10 @@
                       ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
                         li.d-flex.mb-1.pb-1
                           i.fas.fa-circle-check.bg-color-15
-                          p.mb-0 Reactividad
+                          p.mb-0 Reactividad.
                         li.d-flex.mb-0
                           i.fas.fa-circle-check.bg-color-15
-                          p.mb-0 Compatibilidad
+                          p.mb-0 Compatibilidad.
                     
                 .tarjeta-numerada.color-acento-botones.p-3.bg-color-white.mb-3.pst-3(data-aos="fade-right")
                   .tarjeta-numerada__numero
@@ -300,10 +300,10 @@
                       ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
                         li.d-flex.mb-1.pb-1
                           i.fas.fa-circle-check.bg-color-16
-                          p.mb-0 Tasa metabólica
+                          p.mb-0 Tasa metabólica.
                         li.d-flex.mb-0
                           i.fas.fa-circle-check.bg-color-16
-                          p.mb-0 Actividad acuosa
+                          p.mb-0 Actividad acuosa.
 
                       
         h5.text-center.mb-5 Tener un amplio conocimiento y manejo de las características de la carga permite:
@@ -363,7 +363,7 @@
                 p.mb-0 <b>Carga suelta</b>: consiste en bienes sueltos o individuales, transportados como unidades separadas.
               li.d-flex
                 i.fas.fa-circle-check
-                p.mb-0 <b>Carga unitarizada</b>, compuesta por cargas sueltas agrupadas en paletas o contenedores.
+                p.mb-0 <b>Carga unitarizada</b>: compuesta por cargas sueltas agrupadas en paletas o contenedores.
         
           .col-md-4.order-1.mb-4.mb-md-0
             figure
@@ -567,7 +567,7 @@
     
               .bg-color-white.box-shadow.p-3(x="76%" y="78.5%" numero="+")
                 h5.bg-color-10 Grupo C
-                p Se encuentran una gran cantidad de artículos correspondiente a la mitad de las existencias: 50%, cuyos pedidos son escasos (5% de rotación). Se deben ubicar en zonas de accesibilidad normal y que no dificulten las operaciones habituales del almacén.
+                p Se encuentran una gran cantidad de artículos correspondiente a la mitad de las existencias: 50 %, cuyos pedidos son escasos (5 % de rotación). Se deben ubicar en zonas de accesibilidad normal y que no dificulten las operaciones habituales del almacén.
     
     separador
 
@@ -630,11 +630,11 @@
 
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1.
-          span Métodos de unitarización.
+          span Métodos de unitarización
         
         .tabla-a.color-acento-contenido.tab 
           table
-            caption <b>Fuente</b>: Sena, 2025..
+            caption <b>Fuente</b>: Sena, 2025.
             thead
               tr.text-center
                 th.bg-color-3.text-center Método
@@ -644,7 +644,7 @@
             tbody
               tr.bg-color-white
                 td Paletización
-                td Uso de palés (madera, plástico o metal) para agrupar cajas o bultos.
+                td Uso de <em>palets</em> (madera, plástico o metal) para agrupar cajas o bultos.
                 td 
                   | - Estándar global (1200 x 800 mm o 1200 x 1 000 mm). 
                   br
@@ -676,14 +676,14 @@
                 td Cemento, arena y granos.
               tr.bg-color-1white
                 td <em>Film</em> Estirable
-                td Envoltura plástica para fijar carga en palés.
+                td Envoltura plástica para fijar carga en <em>palets</em>.
                 td 
                   | - Evita desplazamientos.
                   br
                   | - Protege de polvo / humedad.
                 td Bebidas, productos empaquetados.
               tr.bg-color-11
-                td Cintas/Zunchos
+                td Cintas / zunchos
                 td Refuerzo con cintas metálicas o plásticas para asegurar bultos.
                 td 
                   | - Bajo costo.

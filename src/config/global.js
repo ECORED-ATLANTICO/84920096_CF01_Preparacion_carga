@@ -261,12 +261,12 @@ export default {
     {
       termino: 'Paletización',
       significado:
-        'técnica de unitarización que utiliza palés para agrupar cajas o bultos, optimizando el espacio y facilitando el manejo con equipos como montacargas.',
+        'técnica de unitarización que utiliza <em>palets</em> para agrupar cajas o bultos, optimizando el espacio y facilitando el manejo con equipos como montacargas.',
     },
     {
       termino: 'RFID',
       significado:
-        'es un sistema de almacenamiento y recuperación de datos remotos que usa dispositivos denominados etiquetas, tarjetas o transpondedores',
+        'es un sistema de almacenamiento y recuperación de datos remotos que usa dispositivos denominados etiquetas, tarjetas o transpondedores.',
     },
     {
       termino: 'Trazabilidad',
@@ -276,7 +276,7 @@ export default {
     {
       termino: 'Unitarización',
       significado:
-        'proceso de agrupar mercancías sueltas en unidades más grandes (como palés o contenedores) para facilitar su manejo, transporte y almacenamiento.',
+        'proceso de agrupar mercancías sueltas en unidades más grandes (como <em>palets</em> o contenedores) para facilitar su manejo, transporte y almacenamiento.',
     },
   ],
   referencias: [

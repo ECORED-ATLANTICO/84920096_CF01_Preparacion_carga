@@ -90,15 +90,15 @@
           img(src="@/assets/curso/tema3/5.png", data-aos="zoom-in")
       .col-lg-8
         LineaTiempoD.color-acento-contenido
-          div.text-small(numero="1" titulo="Legibilidad  y claridad") 
+          div(numero="1" titulo="Legibilidad  y claridad") 
             ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
               li.d-flex.mb-2
                 i.fas.fa-circle-check
                 p.mb-0 Texto y símbolos visibles, incluso en condiciones adversas (lluvia, polvo, entre otros).
               li.d-flex.mb-0
                 i.fas.fa-circle-check
-                p.mb-0 Uso de colores contrastantes, por ejemplo, negro sobre amarillo para advertencias
-          div.text-small(numero="2" titulo="Durabilidad") 
+                p.mb-0 Uso de colores contrastantes, por ejemplo, negro sobre amarillo para advertencias.
+          div(numero="2" titulo="Durabilidad") 
             ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
               li.d-flex.mb-2
                 i.fas.fa-circle-check
@@ -106,7 +106,7 @@
               li.d-flex.mb-0
                 i.fas.fa-circle-check
                 p.mb-0 Materiales adecuados como etiquetas laminadas y tintas indelebles.
-          div.text-small(numero="3" titulo="Ubicación") 
+          div(numero="3" titulo="Ubicación") 
             ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
               li.d-flex.mb-2
                 i.fas.fa-circle-check
@@ -114,7 +114,7 @@
               li.d-flex.mb-0
                 i.fas.fa-circle-check
                 p.mb-0 Evitar áreas susceptibles a daños, por ejemplo, las esquinas.
-          div.text-small(numero="4" titulo="Información completa y precisa") 
+          div(numero="4" titulo="Información completa y precisa") 
             ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
               li.d-flex.mb-2
                 i.fas.fa-circle-check
@@ -122,12 +122,12 @@
               li.d-flex.mb-0
                 i.fas.fa-circle-check
                 p.mb-0 Usar múltiples idiomas en comercio internacional, como inglés, español, chino, entre otros.
-          div.text-small(numero="5" titulo="Cumplimiento legal") 
+          div(numero="5" titulo="Cumplimiento legal") 
             ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
               li.d-flex.mb-2
                 i.fas.fa-circle-check
                 p.mb-0 Adaptarse a regulaciones específicas según el país y tipo de mercancía, por ejemplo, etiquetado FDA para alimentos en EE.UU.
-          div.text-small(numero="6" titulo="Estandarización") 
+          div(numero="6" titulo="Estandarización") 
             ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
               li.d-flex.mb-2
                 i.fas.fa-circle-check
@@ -265,7 +265,7 @@
                   figure
                     img(src='@/assets/curso/tema3/11.svg', alt='Texto que describa la imagen')
                 .col-md-9
-                  h3 Identificación de la carga.
+                  h3 Identificación de la carga
                   p Determinar el tipo de mercancía, su destino, características y necesidades específicas de manipulación.
               .row.align-items-center
                 .col-md-9.mb-4.mb-md-0

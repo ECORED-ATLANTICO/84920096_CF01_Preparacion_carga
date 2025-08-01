@@ -13,7 +13,7 @@
 
         .row.justify-content-center.align-items-center.pst.mb-5
           .col-lg-10
-            p.banner-text La mercancía, debido a sus características, requiere de medios de manipulación y almacenamiento determinados. Cuando se habla de la manipulación de productos, se hace referencia a maniobrar las mercancías, hacerlas más ligeras para una mejor manipulación y posterior desplazamiento hacia cajas, estibas o consolidación de la mercancía en el centro de distribución
+            p.banner-text La mercancía, debido a sus características, requiere de medios de manipulación y almacenamiento determinados. Cuando se habla de la manipulación de productos, se hace referencia a maniobrar las mercancías, hacerlas más ligeras para una mejor manipulación y posterior desplazamiento hacia cajas, estibas o consolidación de la mercancía en el centro de distribución.
         separador
 
         #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -82,7 +82,7 @@
         
         .tabla-a.color-acento-contenido.tab 
           table
-            caption <b>Fuente</b>: Sena, 2025.
+            caption Fuente: Sena, 2025.
             thead
               tr.text-center
                 th.bg-color-3.text-center Clasificación
@@ -152,7 +152,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/6.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Las técnicas de manipulación de carga han pasado de ser métodos tradicionales a sistemas avanzados y tecnológicos. Para elegir la técnica adecuada, es importante tomar en cuenta:
+        p.mb-0 Las técnicas de manipulación de carga han pasado de ser métodos tradicionales a sistemas avanzados y tecnológicos. Para elegir la técnica adecuada, es importante toner en cuenta:
     
     .bg-full-width-2.bg-fondo-2.mb-5
       .px-4.p-md-5
@@ -235,10 +235,10 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido
           h5 Figura 2.
-          span Factores clave para la selección de equipos.
+          span Factores clave para la selección de equipos
         figure.mb-5
           img(src='@/assets/curso/tema2/12.svg', alt='En la figura se presentan los factores clave a tener en cuenta para la selección de equipos para la manipulación de la carga.', data-aos="zoom-in")
-          figcaption Fuente: Sena, 2025.
+          figcaption <b>Fuentes:</b> Sena, 2025.
 
     .bg-full-width.bg-fondo-1.mb-5
       .px-4.p-md-5
@@ -284,7 +284,7 @@
 
         .titulo-sexto.color-acento-contenido
           h5 Tabla 3.
-          span Clasificación de equipos.
+          span Clasificación de equipos
         
         .tabla-a.color-acento-contenido.tab.mb-5
           table
@@ -299,49 +299,49 @@
               //- Para carga unitarizada
               tr.bg-color-white
                 td(rowspan="4") Para carga unitarizada
-                td Carretillas elevadoras
+                td Carretillas elevadoras.
                 td Almacenes, puertos.
                 td Versatilidad y múltiples accesorios.
               tr.bg-color-11
-                td Transpaletas
+                td Transpaletas.
                 td Cortas distancias.
                 td Económicas y fáciles de operar.
               tr.bg-color-white
-                td Apiladores
+                td Apiladores.
                 td Estanterías medias.
                 td Compactos e ideales para pasillos estrechos.
               tr.bg-color-11
-                td Recogepedidos
+                td Recogepedidos.
                 td Preparación de pedidos.
                 td Operador se eleva con la carga.
 
               //- Para carga a granel
               tr.bg-color-white
                 td(rowspan="3") Para carga a granel
-                td Cintas transportadoras
+                td Cintas transportadoras.
                 td Minería, agricultura.
                 td Flujo continuo, automatizable.
               tr.bg-color-11
-                td Tractocargadores
+                td Tractocargadores.
                 td Puertos, construcción.
                 td Movilidad en exteriores.
               tr.bg-color-white
-                td Sistemas neumáticos
+                td Sistemas neumáticos.
                 td Industria alimentaria.
                 td Manipulación higiénica.
 
               //- Para cargas especiales
               tr.bg-color-11
                 td(rowspan="3") Para cargas especiales
-                td Grúas horquilla
-                td Contenedores
+                td Grúas horquilla.
+                td Contenedores.
                 td Alcance vertical.
               tr.bg-color-white
-                td Plataformas giratorias
-                td Maquinaria pesada
+                td Plataformas giratorias.
+                td Maquinaria pesada.
                 td Precisión en posicionamiento.
               tr.bg-color-11
-                td Brazos robóticos
+                td Brazos robóticos.
                 td Líneas de producción.
                 td Repetibilidad exacta.
 
@@ -488,7 +488,8 @@
     .row.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-contenido
-          h5 Entidades reguladoras
+          h5 Figura 3.
+          span Entidades reguladoras
 
         .row.justify-content-center.align-items-center
           .col-lg-10
@@ -498,7 +499,7 @@
                 figure.mb-3
                   img(src='@/assets/curso/tema2/23.svg', alt='', style="max-width: 1106px;").mx-auto
                   
-                figcaption Fuente: Sena, 2025.
+                figcaption <b>Fuentes:</b> Sena, 2025.
     
               .bg-color-white.box-shadow.p-3(x="5.3%" y="41.5%" numero="+")
                 .row
@@ -608,7 +609,7 @@
                     ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
                       li.d-flex.mb-2
                         i.fas.fa-circle-check
-                        p.mb-0 Reciclaje de palés y plásticos mediante puntos verdes en centros de distribución.
+                        p.mb-0 Reciclaje de <em>palets</em> y plásticos mediante puntos verdes en centros de distribución.
             
         .row.justify-content-center.mb-5
           .col-lg-9
