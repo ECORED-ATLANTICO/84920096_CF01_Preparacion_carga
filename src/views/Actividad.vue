@@ -20,7 +20,7 @@ export default {
       tema: 'Disposición de la carga.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Validar el conocimiento adquirido sobre las generalidades de la carga, su manipulación y marcación o rotulado.',
+        '<b> Objetivo:</b> validar el conocimiento adquirido sobre las generalidades de la carga, su manipulación y marcación o rotulado.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
@@ -257,7 +257,7 @@ export default {
         {
           id: 11,
           texto:
-            'La técnica Drive-In es ideal para productos con rotación FIFO (Primero en Entrar, Primero en Salir).',
+            'La técnica <em>Drive-In</em> es ideal para productos con rotación FIFO (Primero en Entrar, Primero en Salir).',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [

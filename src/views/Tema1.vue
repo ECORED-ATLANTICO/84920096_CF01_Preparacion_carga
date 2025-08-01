@@ -81,8 +81,8 @@
           h5 Figura 1.
           span Dimensiones clave
         figure.mb-5
-          img(src='@/assets/curso/tema1/7.svg', alt='Texto que describa la imagen', data-aos="zoom-in")
-          figcaption Fuente: SENA, 2025
+          img(src='@/assets/curso/tema1/7.svg', alt='En la figura se presentan las 3 dimensiones claves que abarca el concepto de carga. Carga Físca Operacional Económica', data-aos="zoom-in")
+          figcaption Fuente: Sena, 2025.
 
     separador
 
@@ -126,7 +126,7 @@
                     p.mb-0 Reactividad:  sensibilidad al oxígeno, agua o luz.
                   li.d-flex
                     i.fas.fa-circle-check
-                    p.mb-0 Punto de inflamabilidad:  clasificación de combustibles (Diésel: >60°C).
+                    p.mb-0 Punto de inflamabilidad:  clasificación de combustibles (Diésel: >60 °C).
                   li.d-flex
                     i.fas.fa-circle-check
                     p.mb-0 PH y corrosividad:  ácidos pH 7 vs. álcalis pH 7 para almacenamiento.
@@ -157,10 +157,10 @@
 
         p El manejo de estos factores es de suma importancia, teniendo en cuenta que conocer la naturaleza de la carga nos ayuda a: 
 
-    .bg-full-width-2.bg-fondo-2.mb-5
+    .bg-full-width-2.bg-fondo-2
       .px-4.p-md-5
         .row.justify-content-center
-          .col-sm-6.col-lg-2.mb-4.mb-lg-0(data-aos="fade-up")
+          .col-md-4.col-xl-2.mb-4.mb-3.mb-xl-0(data-aos="fade-up")
             //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
             //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
             //- estas clases tambien tienen un modificador --borde
@@ -175,7 +175,7 @@
               h5.text-center Elección  del embalaje y materiales
               p.text-center El embalaje debe proteger la carga y adaptarse a sus características.
 
-          .col-sm-6.col-lg-2.mb-4.mb-lg-0(data-aos="fade-down")
+          .col-md-4.col-xl-2.mb-4.mb-3.mb-xl-0(data-aos="fade-down")
             //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
             //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
             //- estas clases tambien tienen un modificador --borde
@@ -187,10 +187,10 @@
                   figure
                     img(src='@/assets/curso/tema1/11.svg', alt='Texto que describa la imagen')
 
-              h5.text-center Medio de transporte
+              h5.text-center.p-lg--2 Medio de transporte
               p.text-center Dependiendo del tipo de carga, se necesita un transporte adecuado.
 
-          .col-sm-6.col-lg-2.mb-4.mb-sm-0(data-aos="fade-up")
+          .col-md-4.col-xl-2.mb-4.mb-3.mb-xl-0(data-aos="fade-up")
             //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
             //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
             //- estas clases tambien tienen un modificador --borde
@@ -202,9 +202,9 @@
                   figure
                     img(src='@/assets/curso/tema1/12.svg', alt='Texto que describa la imagen')
 
-              h5.text-center Manejo y organización
+              h5.text-center.p-lg--2 Manejo y organización
               p.text-center Es fundamental conocer la carga para manipularla de forma segura y eficiente.
-          .col-sm-6.col-lg-2.mb-4.mb-sm-0(data-aos="fade-down")
+          .col-md-4.col-xl-2.mb-4.mb-3.mb-xl-0(data-aos="fade-down")
             //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
             //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
             //- estas clases tambien tienen un modificador --borde
@@ -216,9 +216,9 @@
                   figure
                     img(src='@/assets/curso/tema1/13.svg', alt='Texto que describa la imagen')
 
-              h5.text-center Almacenamiento
+              h5.text-cente.p-lg--3 Almacenamiento
               p.text-center La carga debe guardarse en condiciones que aseguren su integridad y eviten daños.
-          .col-sm-6.col-lg-2.mb-4.mb-sm-0(data-aos="fade-up")
+          .col-md-4.col-xl-2.mb-4.mb-3.mb-xl-0(data-aos="fade-up")
             //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
             //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
             //- estas clases tambien tienen un modificador --borde
@@ -230,7 +230,7 @@
                   figure
                     img(src='@/assets/curso/tema1/14.svg', alt='Texto que describa la imagen')
 
-              h5.text-center Regulación y permisos
+              h5.text-center.p-lg--2 Regulación y permisos
               p.text-center Algunas cargas requieren documentos y autorizaciones especiales.
     
     separador
@@ -238,7 +238,7 @@
     .bg-full-width.bg-fondo-1.mb-5
       .px-4.p-md-5
         #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 1.3  Naturaleza
+          h2 1.3  Características
         
         .row.mb-5
           .col-lg-4.mb-3.mb-lg-0
@@ -248,8 +248,63 @@
             p(data-aos="fade-left") Las características de la carga son el conjunto de atributos medibles que definen su desempeño en las actividades logísticas. Estos parámetros proporcionan el fundamento técnico para la toma de decisiones en las operaciones, la elaboración de protocolos de manipulación, la estimación de costos logísticos y la mitigación de riesgos dentro de la cadena de suministro.
             p.mb-5   Las características de la carga se clasifican de la siguiente manera:
             
-            figure
-              img(src="@/assets/curso/tema1/16.svg", data-aos="zoom-in")
+            .row
+              .col-lg-5
+                figure
+                  img(src="@/assets/curso/tema1/16.svg", data-aos="zoom-in")
+              .col-lg-7
+                .tarjeta-numerada.color-primario.p-3.bg-color-white.mb-3.pst-3(data-aos="fade-right")
+                  .tarjeta-numerada__numero
+                    .h2 1
+                  .row.align-items-center
+                    .col-lg-4
+                      h3.bg-color-14.ms-5 Físicas
+                    .col-lg-4
+                      ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
+                        li.d-flex.mb-1.pb-1
+                          i.fas.fa-circle-check.bg-color-14
+                          p.mb-0 Peso
+                        li.d-flex.mb-0
+                          i.fas.fa-circle-check.bg-color-14
+                          p.mb-0 Volumen
+                    .col-lg-4
+                      ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
+                        li.d-flex.mb-1.pb-1
+                          i.fas.fa-circle-check.bg-color-14
+                          p.mb-0 Densidad
+                        li.d-flex.mb-0
+                          i.fas.fa-circle-check.bg-color-14
+                          p.mb-0 Resistencia
+                .tarjeta-numerada.color-acento-contenido.p-3.bg-color-white.mb-3.pst-3(data-aos="fade-right")
+                  .tarjeta-numerada__numero
+                    .h2 2
+                  .row.align-items-center
+                    .col-lg-4
+                      h3.bg-color-15.ms-5 Químicas
+                    .col-lg-5
+                      ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
+                        li.d-flex.mb-1.pb-1
+                          i.fas.fa-circle-check.bg-color-15
+                          p.mb-0 Reactividad
+                        li.d-flex.mb-0
+                          i.fas.fa-circle-check.bg-color-15
+                          p.mb-0 Compatibilidad
+                    
+                .tarjeta-numerada.color-acento-botones.p-3.bg-color-white.mb-3.pst-3(data-aos="fade-right")
+                  .tarjeta-numerada__numero
+                    .h2 3
+                  .row.align-items-center
+                    .col-lg-4
+                      h3.bg-color-16.ms-5 Biológicas
+                    .col-lg-6
+                      ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
+                        li.d-flex.mb-1.pb-1
+                          i.fas.fa-circle-check.bg-color-16
+                          p.mb-0 Tasa metabólica
+                        li.d-flex.mb-0
+                          i.fas.fa-circle-check.bg-color-16
+                          p.mb-0 Actividad acuosa
+
                       
         h5.text-center.mb-5 Tener un amplio conocimiento y manejo de las características de la carga permite:
 
@@ -265,7 +320,7 @@
                       ul.lista-ul--color.lista-ul--separador.mb-0
                         li.d-flex.mb-1.p-0
                           i.fas.fa-circle-check
-                          p.mb-0 Reducir un 40% pérdidas por manejo inadecuado.
+                          p.mb-0 Reducir un 40 % pérdidas por manejo inadecuado.
                         li.d-flex.mb-1.p-0
                           i.fas.fa-circle-check
                           p.mb-0 Optimizar costos mediante selección científica de transporte.
@@ -373,7 +428,7 @@
                   h3.mb-1 Clasificación ONU cargas peligrosas
                   p.text-white Para ampliar la información acerca de la clasificación de la ONU de las cargas peligrosas, lo invitamos a consultar el siguiente enlace: 
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://www.icao.int/safety/DangerousGoods/DGP%2023%20Working%20Papers/DGP.23.WP.005.2.sp.pdf" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.boe.es/eli/es/ai/2024/12/26/(1)/dof/spa/pdf" target="_blank")
                     span Ir a página
                     i.fas.fa-file-download
 
@@ -427,44 +482,59 @@
         div.p-3.bg-color-8.tarjeta
           h5.mb-0.text-center La correcta disposición física de la carga permite garantizar:
     
-    .row.mb-5.align-items-center
-      .col-lg-3.mb-3.mb-lg-0
-        .bg-color-9.h-100(data-aos="fade-up")
-          .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0.pe-0
+    .row.mb-5.align-items-stretch
+      .col-12.col-md-6.col-lg-3.mb-4.d-flex
+        .bg-color-9.h-100.d-flex.flex-column.w-100.p-4.p-xl-0(data-aos="fade-up")
+          .row.justify-content-center.align-items-center.flex-column.flex-lg-row.flex-grow-1
+            .col-auto.mb-3.mb-lg-0.pe-0.text-center
               figure
-                img(src='@/assets/curso/tema1/31.svg', alt='')
-            .col-lg.ps-0
+                img(src='@/assets/curso/tema1/31.svg', alt='', style='max-width: 100px; height: auto;')
+            .col.ps-0.text-center.text-lg-start
               .p-2
-                p.mb-0(data-aos="fade-up") <b>Seguridad</b>: evitar accidentes o daños.
-      .col-lg-3.mb-3.mb-lg-0
-        .bg-color-9.h-100(data-aos="fade-up")
-          .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0.pe-0
-              figure
-                img(src='@/assets/curso/tema1/32.svg', alt='')
-            .col-lg.ps-0
-              .p-2
-                p.mb-0(data-aos="fade-up") <b>Eficiencia</b>: maximizar espacio y reducir costos.
-      .col-lg-3.mb-3.mb-lg-0
-        .bg-color-9.h-100(data-aos="fade-up")
-          .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0.pe-0
-              figure
-                img(src='@/assets/curso/tema1/33.svg', alt='')
-            .col-lg.ps-0
-              .p-1
-                p.mb-0(data-aos="fade-up") <b>Estabilidad</b>: equilibrar peso y evitar desplazamientos.
-      .col-lg-3.mb-3.mb-lg-0
-        .bg-color-9.h-100(data-aos="fade-up")
-          .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0.pe-0
-              figure
-                img(src='@/assets/curso/tema1/34.svg', alt='')
-            .col-lg.ps-0
-              .p-1
-                p.mb-0(data-aos="fade-up") <b>Cumplimiento normativo</b>: leyes de transporte y logística.
+                p.mb-0(data-aos="fade-up") 
+                  b Seguridad
+                  | : evitar accidentes o daños.
 
+      .col-12.col-md-6.col-lg-3.mb-4.d-flex
+        .bg-color-9.h-100.d-flex.flex-column.p-4.p-xl-0(data-aos="fade-up")
+          .row.justify-content-center.align-items-center.flex-column.flex-lg-row.flex-grow-1
+            .col-auto.mb-3.mb-lg-0.pe-0.text-center
+              figure
+                img(src='@/assets/curso/tema1/32.svg', alt='', style='max-width: 100px; height: auto;')
+            .col.ps-0.text-center.text-lg-start
+              .p-2
+                p.mb-0(data-aos="fade-up") 
+                  b Eficiencia
+                  | : maximizar espacio y reducir costos.
+
+      .col-12.col-md-6.col-lg-3.mb-4.d-flex
+        .bg-color-9.h-100.d-flex.flex-column.p-4.p-xl-0(data-aos="fade-up")
+          .row.justify-content-center.align-items-center.flex-column.flex-lg-row.flex-grow-1
+            .col-auto.mb-3.mb-lg-0.pe-0.text-center
+              figure
+                img(src='@/assets/curso/tema1/33.svg', alt='', style='max-width: 100px; height: auto;')
+            .col.ps-0.text-center.text-lg-start
+              .p-2
+                p.mb-0(data-aos="fade-up") 
+                  b Estabilidad
+                  | : equilibrar peso y evitar desplazamientos.
+
+      .col-12.col-md-6.col-lg-3.mb-4.d-flex
+        .bg-color-9.h-100.d-flex.flex-column.p-4.p-xl-0(data-aos="fade-up")
+          .row.justify-content-center.align-items-center.flex-column.flex-lg-row.flex-grow-1
+            .col-auto.mb-3.mb-lg-0.pe-0.text-center
+              figure
+                img(src='@/assets/curso/tema1/34.svg', alt='', style='max-width: 100px; height: auto;')
+            .col.ps-0.text-center.text-lg-start
+              .p-2
+                p.mb-0(data-aos="fade-up") 
+                  b Cumplimiento normativo
+                  | : leyes de transporte y logística.
+
+
+     
+     
+      
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
@@ -475,7 +545,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/35.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Uno de criterios que se deben tener en cuenta para colocar los productos en el almacén es la rotación, para categorizar estos productos en función de la rotación se utiliza el método ABC, este facilita la ordenación de todas las referencias según sus índices de ventas, adicionalmente permite la administración de los recursos de inventario y facilita la toma de decisiones. Este análisis se basa en la Ley de Pareto, en el cual se pueden clasificar los artículos en tres grupos A, B o C así:
+        p.mb-0 Uno de los criterios que se deben tener en cuenta para colocar los productos en el almacén es la rotación, para categorizar estos productos en función de la rotación se utiliza el método ABC, este facilita la ordenación de todas las referencias según sus índices de ventas, adicionalmente permite la administración de los recursos de inventario y facilita la toma de decisiones. Este análisis se basa en la Ley de Pareto, en el cual se pueden clasificar los artículos en tres grupos A, B o C así:
 
     
     .bg-full-width-2.bg-fondo-2
@@ -513,43 +583,47 @@
               img(src="@/assets/curso/tema1/37.svg", data-aos="zoom-in")
           .col-lg-9
             p.mb-5 La unitarización de la carga tiene como objetivos:
-            .row
-              .col-lg-3.mb-3.mb-lg-0
-                .bg-color-9(data-aos="fade-up")
-                  .row.justify-content-center.align-items-center
-                    .col-lg-auto.mb-3.mb-lg-0.pe-0
+            .row.mb-5.align-items-stretch.justify-content-center
+              //- Optimizar espacio
+              .col-12.col-md-3.col-lg-3.mb-4.d-flex
+                .bg-color-9.h-100.d-flex.flex-column.p-4.w-100.p-xl-0(data-aos="fade-up")
+                  .row.justify-content-center.align-items-center.flex-column.flex-lg-row.flex-grow-1
+                    .col-auto.mb-3.mb-xl-0.text-center
                       figure
-                        img(src='@/assets/curso/01.svg', alt='')
-                    .col-lg.ps-0
-                      .p-2
-                        h5.mb-0(data-aos="fade-up") Optimizar espacio.
-              .col-lg-3.mb-3.mb-lg-0
-                .bg-color-9(data-aos="fade-up")
-                  .row.justify-content-center.align-items-center
-                    .col-lg-auto.mb-3.mb-lg-0.pe-0
+                        img(src='@/assets/curso/01.svg', alt='', style='max-width: 100px; height: auto;')
+                    .col.text-center
+                      h5.mb-0(data-aos="fade-up") Optimizar espacio.
+
+              //- Reducir tiempos
+              .col-12.col-md-3.col-lg-3.mb-4.d-flex
+                .bg-color-9.h-100.d-flex.flex-column.p-4.w-100.p-xl-0(data-aos="fade-up")
+                  .row.justify-content-center.align-items-center.flex-column.flex-lg-row.flex-grow-1
+                    .col-auto.mb-3.mb-xl-0.text-center
                       figure
-                        img(src='@/assets/curso/02.svg', alt='')
-                    .col-lg.ps-0
-                      .p-2
-                        h5.mb-0(data-aos="fade-up") Reducir tiempos.
-              .col-lg-3.mb-3.mb-lg-0
-                .bg-color-9(data-aos="fade-up")
-                  .row.justify-content-center.align-items-center
-                    .col-lg-auto.mb-3.mb-lg-0.pe-0
+                        img(src='@/assets/curso/02.svg', alt='', style='max-width: 100px; height: auto;')
+                    .col.text-center
+                      h5.mb-0(data-aos="fade-up") Reducir tiempos.
+
+              //- Proteger la mercancía
+              .col-12.col-md-3.col-lg-3.mb-4.d-flex
+                .bg-color-9.h-100.d-flex.flex-column.p-4.w-100.p-xl-0(data-aos="fade-up")
+                  .row.justify-content-center.align-items-center.flex-column.flex-lg-row.flex-grow-1
+                    .col-auto.mb-3.mb-xl-0.text-center
                       figure
-                        img(src='@/assets/curso/03.svg', alt='')
-                    .col-lg.ps-0
-                      .p-2
-                        h5.mb-0(data-aos="fade-up") Proteger la mercancía.
-              .col-lg-3.mb-3.mb-lg-0
-                .bg-color-9(data-aos="fade-up")
-                  .row.justify-content-center.align-items-center
-                    .col-lg-auto.mb-3.mb-lg-0.pe-0
+                        img(src='@/assets/curso/03.svg', alt='', style='max-width: 100px; height: auto;')
+                    .col.text-center
+                      h5.mb-0(data-aos="fade-up") Proteger la mercancía.
+
+              //- Facilitar el rastreo
+              .col-12.col-md-3.col-lg-3.mb-4.d-flex
+                .bg-color-9.h-100.d-flex.flex-column.p-4.w-100.p-xl-0(data-aos="fade-up")
+                  .row.justify-content-center.align-items-center.flex-column.flex-lg-row.flex-grow-1
+                    .col-auto.mb-3.mb-xl-0.text-center
                       figure
-                        img(src='@/assets/curso/04.svg', alt='')
-                    .col-lg.ps-0
-                      .p-2
-                        h5.mb-0(data-aos="fade-up") Facilitar el rastreo.
+                        img(src='@/assets/curso/04.svg', alt='', style='max-width: 100px; height: auto;')
+                    .col.text-center
+                      h5.mb-0(data-aos="fade-up") Facilitar el rastreo.
+
 
         .cajon.color-primario.bg-color-1.p-4(data-aos="fade-left")
           p.mb-0 Para que el sistema opere de manera eficiente, es necesario definir reglas estándar para cada mercancía que ingrese al almacén. Esto garantizará que todos los trabajadores sigan un mismo criterio, facilitando el manejo y organización de los productos.
@@ -560,7 +634,7 @@
         
         .tabla-a.color-acento-contenido.tab 
           table
-            caption <b>Fuente</b>: SENA, 2025.
+            caption <b>Fuente</b>: Sena, 2025..
             thead
               tr.text-center
                 th.bg-color-3.text-center Método
@@ -578,7 +652,7 @@
                 td Cajas, bolsas, latas, entre otros.
               tr.bg-color-11
                 td Contenerización
-                td Empaque en contenedores ISO (20’, 40’, reefer, open top, etc.).
+                td Empaque en contenedores ISO (20’, 40’, <em>reefer, open top</em>, etc.).
                 td 
                   | - Protección contra robos y clima.
                   br
@@ -593,7 +667,7 @@
                   | - Apilables.
                 td Piezas automotrices y frutas.
               tr.bg-color-11
-                td Big Bags
+                td <em>Big Bags</em>
                 td Sacos gigantes (1–2 t) para graneles sólidos (harina, minerales, químicos, entre otros).
                 td 
                   | - Reduce pérdidas.
@@ -601,7 +675,7 @@
                   | - Fácil manipulación con grúas.
                 td Cemento, arena y granos.
               tr.bg-color-1white
-                td Film Estirable
+                td <em>Film</em> Estirable
                 td Envoltura plástica para fijar carga en palés.
                 td 
                   | - Evita desplazamientos.
@@ -634,14 +708,14 @@
         .bg-color-6.p-4
           h4 Paletización
           p.mb-0 Es la técnica más utilizada para agrupar mercancías en unidades de carga más grandes. Su propósito es organizar productos pequeños, principalmente cajas, y colocarlos sobre una estiba para facilitar su manejo. Aunque las estibas de madera son las más comunes, también existen opciones de plástico o metal, dependiendo de las necesidades de almacenamiento y transporte.
-        img.pst-2(src="@/assets/curso/tema1/42.svg", data-aos="zoom-in")
+        
       .col-lg-6.position-relative
         figure
           img(src="@/assets/curso/tema1/39.png", data-aos="zoom-in")
         .bg-color-7.p-4
           h4 Contenerización
           p.mb-0 Este método utiliza contenedores para movilizar mercancías de manera más eficiente dentro de la cadena de suministro. Gracias a su uso, los exportadores ya no necesitan trasladar sus bienes directamente al puerto, ya que pueden enviarlos en contenedores que se desplazan a través de distintos medios intermodales, facilitando su logística y reduciendo costos de transporte.
-        img.pst-2(src="@/assets/curso/tema1/42.svg", data-aos="zoom-in")
+        
     
     .bg-fondo-3.mb-5
       .p-4.p-md-5

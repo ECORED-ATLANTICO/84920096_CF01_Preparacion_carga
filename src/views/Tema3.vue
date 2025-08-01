@@ -210,7 +210,7 @@
         
         .tabla-a.color-acento-contenido.tab 
           table
-            caption <b>Fuente</b>: SENA, 2025.
+            caption <b>Fuente</b>: Sena, 2025..
             thead
               tr.text-center
                 th.bg-color-3.text-center Clasificación
@@ -270,7 +270,7 @@
               .row.align-items-center
                 .col-md-9.mb-4.mb-md-0
                   h3 Selección de marcas y etiquetas
-                  p Según el tipo de información requerida (expedición, informativa, manipuleo, entre otros) y conforme a la normativa aplicable. to write user style sheet rules, in my opionion.
+                  p Según el tipo de información requerida (expedición, informativa, manipuleo, entre otros) y conforme a la normativa aplicable.
                 .col-md-3
                   figure
                     img(src='@/assets/curso/tema3/12.svg', alt='Texto que describa la imagen')

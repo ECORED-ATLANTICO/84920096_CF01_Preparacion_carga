@@ -82,7 +82,7 @@
         
         .tabla-a.color-acento-contenido.tab 
           table
-            caption <b>Fuente</b>: SENA, 2025.
+            caption <b>Fuente</b>: Sena, 2025.
             thead
               tr.text-center
                 th.bg-color-3.text-center Clasificación
@@ -96,17 +96,17 @@
                 td 
                   | Método piramidal: apilamiento gradual con base más ancha. 
                   br
-                  | Técnica de sandwich: alternar capas de protección entre productos. 
+                  | Técnica de <em>sandwich</em>: alternar capas de protección entre productos. 
                   br
                   | Procedimiento de zona caliente: áreas designadas para carga rápida.
               tr.bg-color-11
                 td Almacenamiento
                 td 
-                  | Sistema Drive-In: para productos homogéneos con rotación FIFO. 
+                  | Sistema <em>Drive-In</em>: para productos homogéneos con rotación FIFO. 
                   br
                   | Compactación dinámica: uso de estanterías móviles. 
                   br
-                  | Slotting inteligente: ubicación por algoritmos de frecuencia de uso.
+                  | <em>Slotting</em> inteligente: ubicación por algoritmos de frecuencia de uso.
               
               //- Por tipo de carga - Frágil y peligrosa
               tr.bg-color-white
@@ -144,7 +144,7 @@
                   br
                   | Sensores IoT: monitoreo de condiciones en tiempo real. 
                   br
-                  | Blockchain logístico: registro inmutable de manipulaciones.
+                  | <em>Blockchain</em> logístico: registro inmutable de manipulaciones.
 
    
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
@@ -157,7 +157,7 @@
     .bg-full-width-2.bg-fondo-2.mb-5
       .px-4.p-md-5
         .row.justify-content-center
-          .col-sm-6.col-lg-2.mb-4.mb-lg-0(data-aos="fade-up")
+          .col-md-5.col-xl-2.mb-4.mb-xl-0(data-aos="fade-up")
             //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
             //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
             //- estas clases tambien tienen un modificador --borde
@@ -169,9 +169,9 @@
                   figure
                     img(src='@/assets/curso/tema2/7.svg', alt='Texto que describa la imagen')
 
-              h5.text-center o	Características intrínsecas de la carga.
+              h5.text-center Características intrínsecas de la carga.
 
-          .col-sm-6.col-lg-2.mb-4.mb-lg-0(data-aos="fade-down")
+          .col-md-5.col-xl-2.mb-4.mb-xl-0(data-aos="fade-down")
             //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
             //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
             //- estas clases tambien tienen un modificador --borde
@@ -183,9 +183,9 @@
                   figure
                     img(src='@/assets/curso/tema2/8.svg', alt='Texto que describa la imagen')
 
-              h5.text-center o	Infraestructura disponible.
+              h5.text-center Infraestructura disponible.
 
-          .col-sm-6.col-lg-2.mb-4.mb-sm-0(data-aos="fade-up")
+          .col-md-5.col-xl-2.mb-4.mb-xl-0(data-aos="fade-up")
             //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
             //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
             //- estas clases tambien tienen un modificador --borde
@@ -197,8 +197,8 @@
                   figure
                     img(src='@/assets/curso/tema2/9.svg', alt='Texto que describa la imagen')
 
-              h5.text-center o	Requerimientos regulatorios.
-          .col-sm-6.col-lg-2.mb-4.mb-sm-0(data-aos="fade-down")
+              h5.text-center Requerimientos regulatorios.
+          .col-md-5.col-xl-2.mb-4.mb-xl-0(data-aos="fade-down")
             //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
             //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
             //- estas clases tambien tienen un modificador --borde
@@ -210,7 +210,7 @@
                   figure
                     img(src='@/assets/curso/tema2/10.svg', alt='Texto que describa la imagen')
 
-              h5.text-center o	Relación costo-beneficio.
+              h5.text-center Relación costo - beneficio.
     
     .cajon.color-primario.bg-color-1.p-4(data-aos="fade-left")
       p.mb-0 Una manipulación eficiente de la carga marca la diferencia en la cadena de suministro actual, donde la precisión, rapidez y seguridad son claves para lograr un proceso logístico exitoso.
@@ -237,8 +237,8 @@
           h5 Figura 2.
           span Factores clave para la selección de equipos.
         figure.mb-5
-          img(src='@/assets/curso/tema2/12.svg', alt='Texto que describa la imagen', data-aos="zoom-in")
-          figcaption Fuente: SENA, 2025
+          img(src='@/assets/curso/tema2/12.svg', alt='En la figura se presentan los factores clave a tener en cuenta para la selección de equipos para la manipulación de la carga.', data-aos="zoom-in")
+          figcaption Fuente: Sena, 2025.
 
     .bg-full-width.bg-fondo-1.mb-5
       .px-4.p-md-5
@@ -248,34 +248,37 @@
               img(src="@/assets/curso/tema2/13.png", data-aos="zoom-in")
           .col-lg-9
             p.mb-4 Además de los factores mencionados anteriormente, es importante tener en cuenta las siguientes consideraciones económicas:
-            .row.mb-4.align-items-center
-              .col-lg-4.mb-3.mb-lg-0
-                .bg-color-12.tarjeta.h-100(data-aos="fade-up")
-                  .row.justify-content-center.align-items-center
-                    .col-lg-auto.mb-3.mb-lg-0.pe-0
+            .row.mb-4.align-items-stretch.justify-content-center
+              //- Costo inicial vs vida útil
+              .col-12.col-md-4.col-lg-4.mb-4.d-flex
+                .bg-color-12.h-100.d-flex.flex-column.p-4.w-100.p-xl-0(data-aos="fade-up")
+                  .row.justify-content-center.align-items-center.flex-column.flex-xl-row.flex-grow-1
+                    .col-auto.mb-3.mb-xl-0.text-center
                       figure
-                        img(src='@/assets/curso/01.svg', alt='')
-                    .col-lg.ps-0
-                      .p-2
-                        h5.mb-0(data-aos="fade-up") Costo inicial vs vida útil.
-              .col-lg-4.mb-3.mb-lg-0
-                .bg-color-12.tarjeta.h-100(data-aos="fade-up")
-                  .row.justify-content-center.align-items-center
-                    .col-lg-auto.mb-3.mb-lg-0.pe-0
+                        img(src='@/assets/curso/01.svg', alt='', style='max-width: 100px; height: auto;')
+                    .col.text-center.text-lg-start
+                      h5.mb-0(data-aos="fade-up") Costo inicial vs. vida útil.
+
+              //- Consumo energético
+              .col-12.col-md-4.col-lg-4.mb-4.d-flex
+                .bg-color-12.h-100.d-flex.flex-column.p-4.w-100.p-xl-0(data-aos="fade-up")
+                  .row.justify-content-center.align-items-center.flex-column.flex-lg-row.flex-grow-1
+                    .col-auto.mb-3.mb-xl-0.text-center
                       figure
-                        img(src='@/assets/curso/02.svg', alt='')
-                    .col-lg.ps-0
-                      .p-2
-                        h5.mb-0(data-aos="fade-up") Consumo energético.
-              .col-lg-4.mb-3.mb-lg-0
-                .bg-color-12.tarjeta.h-100(data-aos="fade-up")
-                  .row.justify-content-center.align-items-center
-                    .col-lg-auto.mb-3.mb-lg-0.pe-0
+                        img(src='@/assets/curso/02.svg', alt='', style='max-width: 100px; height: auto;')
+                    .col.text-center.text-lg-start
+                      h5.mb-0(data-aos="fade-up") Consumo energético.
+
+              //- Requerimientos de mantenimiento
+              .col-12.col-md-4.col-lg-4.mb-4.d-flex
+                .bg-color-12.h-100.d-flex.flex-column.p-4.w-100.p-xl-0(data-aos="fade-up")
+                  .row.justify-content-center.align-items-center.flex-column.flex-lg-row.flex-grow-1
+                    .col-auto.mb-3.mb-xl-0.text-center
                       figure
-                        img(src='@/assets/curso/03.svg', alt='')
-                    .col-lg.ps-0
-                      .p-1
-                        h5.mb-0(data-aos="fade-up") Requerimientos de mantenimiento.
+                        img(src='@/assets/curso/03.svg', alt='', style='max-width: 100px; height: auto;')
+                    .col.text-center.text-lg-start
+                      h5.mb-0(data-aos="fade-up") Requerimientos de mantenimiento.
+
             .cajon.color-primario.bg-color-1.p-4.mb-5(data-aos="fade-left")
               p.mb-0 A continuación, encontraremos los diferentes equipos que se utilizan para la manipulación de la carga: 
 
@@ -285,7 +288,7 @@
         
         .tabla-a.color-acento-contenido.tab.mb-5
           table
-            caption <b>Fuente</b>: SENA, 2025.
+            caption <b>Fuente</b>: Sena, 2025.
             thead
               tr.text-center
                 th.bg-color-3.text-center Clasificación
@@ -489,12 +492,13 @@
 
         .row.justify-content-center.align-items-center
           .col-lg-10
-            ImagenInfografica.color-acento-botones
+            img.d-md-none(src='@/assets/curso/tema2/23-1.svg', alt='Mintrabajo Vigila el cumplimiento de normas de seguridad laboral. Mintransporte Regula el transporte de carga (terrestre, fluvial y aéreo). INVIMA Controla manipulación de carga perecedera. ANLA Supervisa manipulación de residuos peligrosos.', style="max-width: 1106px;").mx-auto
+            ImagenInfografica.d-none.d-md-flex.color-acento-botones
               template(v-slot:imagen)
                 figure.mb-3
-                  img.d-none.d-lg-flex(src='@/assets/curso/tema2/23.svg', alt='', style="max-width: 1106px;").mx-auto
-                  img.d-lg-none(src='@/assets/curso/tema2/23-1.svg', alt='', style="max-width: 1106px;").mx-auto
-                figcaption Fuente: SENA, 2025
+                  img(src='@/assets/curso/tema2/23.svg', alt='', style="max-width: 1106px;").mx-auto
+                  
+                figcaption Fuente: Sena, 2025.
     
               .bg-color-white.box-shadow.p-3(x="5.3%" y="41.5%" numero="+")
                 .row
@@ -618,7 +622,7 @@
                 figure
                   img(src='@/assets/curso/tema2/27.png', alt='', style="max-width: 1106px;").mx-auto
               .row.mb-5(x="17%" y="100%" numero="+")
-                .col-md-6.col-xl.mb-4.mb-xl-0
+                .col-xl.mb-4.mb-xl-0
                   //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
                   //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
                   //- estas clases tambien tienen un modificador --borde
@@ -634,7 +638,7 @@
                         i.fas.fa-circle-check.bg-color-13
                         p.mb-0 Priorizar áreas de mejora.
               .row.mb-5(x="53%" y="100%" numero="+")
-                .col-md-6.col-xl.mb-4.mb-xl-0
+                .col-xl.mb-4.mb-xl-0
                   //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
                   //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
                   //- estas clases tambien tienen un modificador --borde
@@ -650,7 +654,7 @@
                         i.fas.fa-circle-check.bg-color-13
                         p.mb-0 Adquisición de equipos/tecnología.
               .row.mb-5(x="87%" y="100%" numero="+")
-                .col-md-6.col-xl.mb-4.mb-xl-0
+                .col-xl.mb-4.mb-xl-0
                   //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
                   //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
                   //- estas clases tambien tienen un modificador --borde
