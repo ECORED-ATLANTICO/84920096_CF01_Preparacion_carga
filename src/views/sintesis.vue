@@ -6,7 +6,7 @@
     .row.justify-content-center.bg-color-sintesis.tarjeta.p-4
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="En la síntesis del componente formativo Disposición y logística de la carga ofrece una visión general de la carga, su clasificación y ubicación. Incluye todo lo referente a la manipulación de la carga, así como la marcación y rotulado de estas. Carga incluye: Concepto Naturaleza Características Tipos Ubicación Método ABC Métodos de unitarización Manipulación de carga incluye: Concepto Técnicas Equipos Normativa Buenas prácticas Marcado y rotulado incluye: Concepto Tipos  Características Normativa Procedimientos  ")
+          img(src="@/assets/curso/sintesis.svg", alt='En la síntesis del componente formativo "Disposición y logística de la carga" ofrece una visión general de la carga, su clasificación y ubicación. Incluye todo lo referente a la manipulación de la carga, así como la marcación y rotulado de estas. Carga incluye: Concepto Naturaleza Características Tipos Ubicación Método ABC Métodos de unitarización Manipulación de carga incluye: Concepto Técnicas Equipos Normativa Buenas prácticas Marcado y rotulado incluye: Concepto Tipos  Características Normativa Procedimientos')
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

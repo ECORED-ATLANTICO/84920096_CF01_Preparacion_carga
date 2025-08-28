@@ -27,14 +27,50 @@
             p(data-aos="fade-left") La manipulación de la carga abarca todas las actividades necesarias para mover, almacenar, proteger y controlar las mercancías mientras se transportan y almacenan. Realizar este proceso de manera eficiente ayuda a prevenir daños, disminuir costos y agilizar los tiempos dentro de la cadena de suministro.
             .cajon.color-primario.bg-color-1.p-4(data-aos="fade-left")
               p.mb-0 A la hora de ejecutar la manipulación de la carga debemos tener presente los siguientes principios:
-    
-    .bg-full-width-2.bg-fondo-2.mb-5
+
+    .bg-full-width.bg-fondo-2.mb-5
       .px-4.px-md-5
         .row.justify-content-center
           .col-lg-10
-            figure
-              img.d-none.d-md-flex(src="@/assets/curso/tema2/3.svg", data-aos="zoom-in")
-              img.d-md-none(src="@/assets/curso/tema2/3-1.svg", data-aos="zoom-in")
+            .section-pasos
+              .pasos-container
+                .paso(data-aos="fade-down")
+                  span.numero 1
+                  .contenido
+                    .icono
+                      img(src="@/assets/curso/tema2/icono1.svg" alt="Seguridad")
+                    h4 Seguridad
+                    p Evitar accidentes laborales y daños a la mercancía.
+                .paso(data-aos="fade-up")
+                  span.numero 2
+                  .contenido
+                    .icono
+                      img(src="@/assets/curso/tema2/icono2.svg" alt="Eficiencia")
+                    h4 Eficiencia
+                    p Minimizar movimientos innecesarios y tiempos muertos.
+                .paso(data-aos="fade-down")
+                  span.numero 3
+                  .contenido
+                    .icono
+                      img(src="@/assets/curso/tema2/icono3.svg" alt="Protección")
+                    h4 Protección
+                    p Usar embalajes y equipos adecuados para preservar la carga.
+                .paso(data-aos="fade-up")
+                  span.numero 4
+                  .contenido
+                    .icono
+                      img(src="@/assets/curso/tema2/icono4.svg" alt="Trazabilidad")
+                    h4 Trazabilidad
+                    p Registrar cada movimiento para control y rastreo.
+              .linea-progreso
+                span.punto
+                span.punto
+                span.punto
+                span.punto
+
+
+
+   
     
     separador
 
@@ -92,7 +128,7 @@
               //- Por tipo de operación - Carga y descarga
               tr.bg-color-white
                 td(rowspan="2") Por tipo de operación
-                td Carga y descarga
+                td Carga y descarga.
                 td 
                   | Método piramidal: apilamiento gradual con base más ancha. 
                   br
@@ -100,7 +136,7 @@
                   br
                   | Procedimiento de zona caliente: áreas designadas para carga rápida.
               tr.bg-color-11
-                td Almacenamiento
+                td Almacenamiento.
                 td 
                   | Sistema <em>Drive-In</em>: para productos homogéneos con rotación FIFO. 
                   br
@@ -111,7 +147,7 @@
               //- Por tipo de carga - Frágil y peligrosa
               tr.bg-color-white
                 td(rowspan="2") Por tipo de carga
-                td Carga frágil
+                td Carga frágil.
                 td 
                   | Método de flotación: amortiguación con materiales viscoelásticos. 
                   br
@@ -119,7 +155,7 @@
                   br
                   | Sistema de suspensión: barras colgantes para componentes delicados.
               tr.bg-color-11
-                td Carga peligrosa
+                td Carga peligrosa.
                 td 
                   | Procedimiento de contención doble: barreras secundarias para líquidos. 
                   br
@@ -130,7 +166,7 @@
               //- Avanzadas - Mecanizados y soporte
               tr.bg-color-white
                 td(rowspan="2") Avanzadas
-                td Sistemas mecanizados
+                td Sistemas mecanizados.
                 td 
                   | Automatización por voz: comandos vocales para operarios. 
                   br
@@ -138,7 +174,7 @@
                   br
                   | Vehículos Guiados Automáticos (AGV): flotas autónomas coordinadas.
               tr.bg-color-11
-                td Tecnologías de soporte
+                td Tecnologías de soporte.
                 td 
                   | Realidad aumentada: visualización de datos de manipulación. 
                   br
@@ -152,7 +188,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/6.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Las técnicas de manipulación de carga han pasado de ser métodos tradicionales a sistemas avanzados y tecnológicos. Para elegir la técnica adecuada, es importante toner en cuenta:
+        p.mb-0 Las técnicas de manipulación de carga han pasado de ser métodos tradicionales a sistemas avanzados y tecnológicos. Para elegir la técnica adecuada, es importante tener en cuenta:
     
     .bg-full-width-2.bg-fondo-2.mb-5
       .px-4.p-md-5
@@ -234,10 +270,10 @@
     .row.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-contenido
-          h5 Figura 2.
+          h5 Figura 3.
           span Factores clave para la selección de equipos
         figure.mb-5
-          img(src='@/assets/curso/tema2/12.svg', alt='En la figura se presentan los factores clave a tener en cuenta para la selección de equipos para la manipulación de la carga.', data-aos="zoom-in")
+          img(src='@/assets/curso/tema2/12.svg', alt='Los factores clave para la selección de equipo son •Tipo de carga •Peso / volumen •Espacio disponible •Ancho de pasillos •Frecuencia de uso •Horas de operación', data-aos="zoom-in")
           figcaption <b>Fuentes:</b> Sena, 2025.
 
     .bg-full-width.bg-fondo-1.mb-5
@@ -362,7 +398,7 @@
                     img(src='@/assets/curso/tema2/14.svg', alt='Texto que describa la imagen')
 
               h5.text-center Tecnología automatizada 
-              p vehículos guiados automáticos, drones de almacén.
+              p Vehículos guiados automáticos, drones de almacén.
 
           .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
             //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
@@ -375,7 +411,7 @@
                     img(src='@/assets/curso/tema2/15.svg', alt='Texto que describa la imagen')
 
               h5.text-center Equipos híbridos 
-              p carretillas híbridas, montacargas solares.
+              p Carretillas híbridas, montacargas solares.
 
         separador
 
@@ -395,7 +431,7 @@
                 ul.lista-ul--color.lista-ul--separador
                   li.d-flex.mb-2
                     i.fas.fa-circle-check
-                    p.mb-0 Movimiento (carga/descarga y transporte interno).
+                    p.mb-0 Movimiento (carga / descarga y transporte interno).
                   li.d-flex.mb-2
                     i.fas.fa-circle-check
                     p.mb-0 Almacenamiento (ubicación y condiciones ambientales).
@@ -429,13 +465,13 @@
           img(src="@/assets/curso/tema2/18.png", data-aos="zoom-in")
       .col-lg-8
         LineaTiempoD.color-acento-contenido
-          p.text-small(numero="1" titulo="Decreto  1072 de 2015 (Decreto único reglamentario del trabajo)") Establece las normas de Seguridad y Salud en el Trabajo (SST) para manipulación de cargas e incluye requisitos para equipos, capacitación y prevención de riesgos.
+          p(numero="1" titulo="Decreto  1072 de 2015 (Decreto único reglamentario del trabajo)") Establece las normas de Seguridad y Salud en el Trabajo (SST) para manipulación de cargas e incluye requisitos para equipos, capacitación y prevención de riesgos.
           
-          p.text-small(numero="2" titulo="Resolución 1409 de 2012 (Ministerio del Trabajo)") Regula la manipulación manual de cargas (pesos máximos, técnicas ergonómicas), obliga a evaluar riesgos en tareas repetitivas o con sobreesfuerzo.
+          p(numero="2" titulo="Resolución 1409 de 2012 (Ministerio del Trabajo)") Regula la manipulación manual de cargas (pesos máximos, técnicas ergonómicas), obliga a evaluar riesgos en tareas repetitivas o con sobreesfuerzo.
           
-          p.text-small(numero="3" titulo="Ley 769 de 2002 (Código Nacional de Tránsito)") Normas para el transporte terrestre de carga (fijación, peso máximo y dimensiones), exige el uso de cinchos y dispositivos de sujeción homologados.
+          p(numero="3" titulo="Ley 769 de 2002 (Código Nacional de Tránsito)") Normas para el transporte terrestre de carga (fijación, peso máximo y dimensiones), exige el uso de cinchos y dispositivos de sujeción homologados.
           
-          p.text-small(numero="4" titulo="Decreto 1609 de 2002 (Manejo de mercancías peligrosas)") Regula el transporte, almacenamiento y manipulación de sustancias peligrosas (químicos, inflamables y explosivos).
+          p(numero="4" titulo="Decreto 1609 de 2002 (Manejo de mercancías peligrosas)") Regula el transporte, almacenamiento y manipulación de sustancias peligrosas (químicos, inflamables y explosivos).
 
     .bg-full-width-2.bg-fondo-2.mb-5
       .px-4.p-md-5
@@ -488,12 +524,12 @@
     .row.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-contenido
-          h5 Figura 3.
+          h5 Figura 4.
           span Entidades reguladoras
 
         .row.justify-content-center.align-items-center
           .col-lg-10
-            img.d-md-none(src='@/assets/curso/tema2/23-1.svg', alt='Mintrabajo Vigila el cumplimiento de normas de seguridad laboral. Mintransporte Regula el transporte de carga (terrestre, fluvial y aéreo). INVIMA Controla manipulación de carga perecedera. ANLA Supervisa manipulación de residuos peligrosos.', style="max-width: 1106px;").mx-auto
+            img.d-md-none(src='@/assets/curso/tema2/23-1.svg', alt='En la figura se presentan las entidades reguladoras de las normas para la manipulación de la carga.', style="max-width: 1106px;").mx-auto
             ImagenInfografica.d-none.d-md-flex.color-acento-botones
               template(v-slot:imagen)
                 figure.mb-3
@@ -565,7 +601,7 @@
     
               .bg-color-white.box-shadow.p-3(x="51%" y="92.5%" numero="+")
                 h5 Eficiente
-                p Maximizando la productividad, minimizando tiempos y costos operativos y optimizando el uso de espacios y recursos.
+                p Maximizando la productividad, minimizando tiempos, costos operativos y optimizando el uso de espacios y recursos.
     
               .bg-color-white.box-shadow.p-3(x="84%" y="92.5%" numero="+")
                 h5 Sostenible
@@ -630,7 +666,7 @@
                   .tarjeta-numerada.color-acento-botones.p-5.bg-color-white
                     .tarjeta-numerada__numero
                       .h2 1
-                    h5.mb-3.bg-color-13 Diagnóstico inicial
+                    h5.mb-3 Diagnóstico inicial
                     ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
                       li.d-flex.mb-2
                         i.fas.fa-circle-check.bg-color-13
@@ -646,14 +682,14 @@
                   .tarjeta-numerada.color-acento-botones.p-5.bg-color-white
                     .tarjeta-numerada__numero
                       .h2 2
-                    h5.mb-3.bg-color-13 Plan de acción
+                    h5.mb-3 Plan de acción
                     ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
                       li.d-flex.mb-2
                         i.fas.fa-circle-check.bg-color-13
                         p.mb-0 Capacitaciones.
                       li.d-flex.mb-0
                         i.fas.fa-circle-check.bg-color-13
-                        p.mb-0 Adquisición de equipos/tecnología.
+                        p.mb-0 Adquisición de equipos / tecnología.
               .row.mb-5(x="87%" y="100%" numero="+")
                 .col-xl.mb-4.mb-xl-0
                   //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
@@ -662,7 +698,7 @@
                   .tarjeta-numerada.color-acento-botones.p-5.bg-color-white
                     .tarjeta-numerada__numero
                       .h2 3
-                    h5.mb-3.bg-color-13 Monitoreo continuo
+                    h5.mb-3 Monitoreo continuo
                     ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
                       li.d-flex.mb-2
                         i.fas.fa-circle-check.bg-color-13

@@ -28,7 +28,7 @@
 
         .row.justify-content-center.align-items-center.pst.mb-5
           .col-lg-10
-            p.banner-text La carga es el corazón de las operaciones logísticas y de transporte. Se  define como cualquier producto, mercancía o material que se mueve o almacena dentro de la cadena de suministro. Es el objeto físico que tiene valor económico y necesita ser manejado desde el lugar donde se origina hasta su destino final, ya sea para su uso, venta o transformación
+            p.banner-text La carga es el corazón de las operaciones logísticas y de transporte. Se  define como cualquier producto, mercancía o material que se mueve o almacena dentro de la cadena de suministro. Es el objeto físico que tiene valor económico y necesita ser manejado desde el lugar donde se origina hasta su destino final, ya sea para su uso, venta o transformación.
         
         .row.mb-5.align-items-center
           .col-lg-4.mb-3.mb-lg-0
@@ -61,7 +61,7 @@
               img(src='@/assets/curso/tema1/5.svg', alt='Texto que describa la imagen')
           
         h2.text-center Operacional
-        p Unidad de trabajo en procesos logísticos (carga/descarga, transporte, almacenaje).
+        p Unidad de trabajo en procesos logísticos (carga / descarga, transporte, almacenaje).
 
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -81,7 +81,7 @@
           h5 Figura 1.
           span Dimensiones clave
         figure.mb-5
-          img(src='@/assets/curso/tema1/7.svg', alt='En la figura se presentan las 3 dimensiones claves que abarca el concepto de carga. Carga Físca Operacional Económica', data-aos="zoom-in")
+          img(src='@/assets/curso/tema1/7.svg', alt='En la figura se presentan las 3 dimensiones claves que abarca el concepto de carga. - Física - Operacional - Económica', data-aos="zoom-in")
           figcaption <b>Fuentes:</b> Sena, 2025.
 
     separador
@@ -129,7 +129,7 @@
                     p.mb-0 Punto de inflamabilidad:  clasificación de combustibles (Diésel: >60 °C).
                   li.d-flex
                     i.fas.fa-circle-check
-                    p.mb-0 PH y corrosividad:  ácidos pH 7 vs. álcalis pH 7 para almacenamiento.
+                    p.mb-0 PH y corrosividad:  ácidos (pH < 7) vs. álcalis (pH > 7) para almacenamiento.
     
               div(numero="3" titulo="Propiedades biológicas") 
                 ul.lista-ul--color.lista-ul--separador
@@ -138,10 +138,10 @@
                     p.mb-0 Actividad enzimática: maduración de frutas (producción de etileno).
                   li.d-flex
                     i.fas.fa-circle-check
-                    p.mb-0 Carga microbiana: límites UFC/g en alimentos perecederos.
+                    p.mb-0 Carga microbiana: límites UFC / g en alimentos perecederos.
                   li.d-flex
                     i.fas.fa-circle-check
-                    p.mb-0 Respiración vegetal: tasas de O₂/CO₂ en flores frescas.
+                    p.mb-0 Respiración vegetal: tasas de O₂ / CO₂ en flores frescas.
    
               div(numero="4" titulo="Propiedades mecánicas") 
                 ul.lista-ul--color.lista-ul--separador
@@ -246,65 +246,13 @@
               img(src="@/assets/curso/tema1/15.png", data-aos="zoom-in")
           .col-lg-8
             p(data-aos="fade-left") Las características de la carga son el conjunto de atributos medibles que definen su desempeño en las actividades logísticas. Estos parámetros proporcionan el fundamento técnico para la toma de decisiones en las operaciones, la elaboración de protocolos de manipulación, la estimación de costos logísticos y la mitigación de riesgos dentro de la cadena de suministro.
-            p.mb-5   Las características de la carga se clasifican de la siguiente manera:
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 2.
+              span  Las características de la carga se clasifican de la siguiente manera: 
+            figure.mb-3
+              img(src="@/assets/curso/tema1/43.svg", data-aos="zoom-in", alt="Físicas: • Peso.  • Volumen. • Densidad. • Resistencia. Químicas: • Reactividad. • Compatibilidad. Biológicas: • Tasa metabólica. • Actividad acuosa.")
+            figcaption <b>Fuentes:</b> Sena, 2025.
             
-            .row
-              .col-lg-5
-                figure
-                  img(src="@/assets/curso/tema1/16.svg", data-aos="zoom-in")
-              .col-lg-7
-                .tarjeta-numerada.color-primario.p-3.bg-color-white.mb-3.pst-3(data-aos="fade-right")
-                  .tarjeta-numerada__numero
-                    .h2 1
-                  .row.align-items-center
-                    .col-lg-4
-                      h3.bg-color-14.ms-5 Físicas
-                    .col-lg-4
-                      ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
-                        li.d-flex.mb-1.pb-1
-                          i.fas.fa-circle-check.bg-color-14
-                          p.mb-0 Peso.
-                        li.d-flex.mb-0
-                          i.fas.fa-circle-check.bg-color-14
-                          p.mb-0 Volumen.
-                    .col-lg-4
-                      ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
-                        li.d-flex.mb-1.pb-1
-                          i.fas.fa-circle-check.bg-color-14
-                          p.mb-0 Densidad.
-                        li.d-flex.mb-0
-                          i.fas.fa-circle-check.bg-color-14
-                          p.mb-0 Resistencia.
-                .tarjeta-numerada.color-acento-contenido.p-3.bg-color-white.mb-3.pst-3(data-aos="fade-right")
-                  .tarjeta-numerada__numero
-                    .h2 2
-                  .row.align-items-center
-                    .col-lg-4
-                      h3.bg-color-15.ms-5 Químicas
-                    .col-lg-5
-                      ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
-                        li.d-flex.mb-1.pb-1
-                          i.fas.fa-circle-check.bg-color-15
-                          p.mb-0 Reactividad.
-                        li.d-flex.mb-0
-                          i.fas.fa-circle-check.bg-color-15
-                          p.mb-0 Compatibilidad.
-                    
-                .tarjeta-numerada.color-acento-botones.p-3.bg-color-white.mb-3.pst-3(data-aos="fade-right")
-                  .tarjeta-numerada__numero
-                    .h2 3
-                  .row.align-items-center
-                    .col-lg-4
-                      h3.bg-color-16.ms-5 Biológicas
-                    .col-lg-6
-                      ul.lista-ul--color.lista-ul--separador.ms-3.mb-0
-                        li.d-flex.mb-1.pb-1
-                          i.fas.fa-circle-check.bg-color-16
-                          p.mb-0 Tasa metabólica.
-                        li.d-flex.mb-0
-                          i.fas.fa-circle-check.bg-color-16
-                          p.mb-0 Actividad acuosa.
-
                       
         h5.text-center.mb-5 Tener un amplio conocimiento y manejo de las características de la carga permite:
 
@@ -349,7 +297,7 @@
     
 
         .cajon.color-primario.p-4.mb-4.bg-color-1(data-aos="fade-left")
-          p.mb-0 Según el blog de la empresa Satrack, la importancia de una correcta clasificación de cargas radica, por un lado, en conservar las mercancías en su estado original y resguardarlas de que sufran cualquier tipo de daño o rotura. Por otro lado, es fundamental para garantizar el cumplimiento de los tiempos de entrega de mercancías, agilizando las tareas de carga y descarga, y velando también por la seguridad del personal de trabajo. Los principales tipos de carga son los siguientes:     
+          p.mb-0 Según el <em>blog</em> de la empresa Satrack, la importancia de una correcta clasificación de cargas radica, por un lado, en conservar las mercancías en su estado original y resguardarlas de que sufran cualquier tipo de daño o rotura. Por otro lado, es fundamental para garantizar el cumplimiento de los tiempos de entrega de mercancías, agilizando las tareas de carga y descarga, y velando también por la seguridad del personal de trabajo. Los principales tipos de carga son los siguientes:     
 
     TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Carga general")
@@ -376,10 +324,10 @@
             ul.lista-ul--color.lista-ul--separador
               li.d-flex
                 i.fas.fa-circle-check
-                p.mb-0 <b>Solida</b>: abonos, granos, comestibles, fertilizantes, minerales, entre otros.
+                p.mb-0 <b>Sólida</b>: abonos, granos, comestibles, fertilizantes, minerales, entre otros.
               li.d-flex
                 i.fas.fa-circle-check
-                p.mb-0 <b>Liquida</b>: petróleo, lubricantes, gasolina, diésel y sebo.
+                p.mb-0 <b>Líquida</b>: petróleo, lubricantes, gasolina, diésel y sebo.
               li.d-flex
                 i.fas.fa-circle-check
                 p.mb-0 <b>Gaseosa</b>: gas propano, butano, entre otros.
@@ -646,7 +594,7 @@
                 td Paletización
                 td Uso de <em>palets</em> (madera, plástico o metal) para agrupar cajas o bultos.
                 td 
-                  | - Estándar global (1200 x 800 mm o 1200 x 1 000 mm). 
+                  | - Estándar global (1200 x 800 mm o 1200 x 1000 mm). 
                   br
                   | - Compatible con grúas y montacargas.
                 td Cajas, bolsas, latas, entre otros.
@@ -659,7 +607,7 @@
                   | - Ideal para transporte multimodal.
                 td Mercancía general y maquinaria.
               tr.bg-color-white
-                td Cajas / Cajones
+                td Cajas / cajones
                 td Unitarización en cajas de plástico, metal o madera (reutilizables).
                 td 
                   | - Reutilizables.
@@ -675,7 +623,7 @@
                   | - Fácil manipulación con grúas.
                 td Cemento, arena y granos.
               tr.bg-color-1white
-                td <em>Film</em> Estirable
+                td <em>Film</em> estirable
                 td Envoltura plástica para fijar carga en <em>palets</em>.
                 td 
                   | - Evita desplazamientos.
@@ -691,7 +639,7 @@
                   | - Aplicable a cualquier forma.
                 td Paquetes y láminas de acero.
               tr.bg-color-white
-                td ULD (Aéreo)
+                td ULD (aéreo)
                 td Unidades de carga aérea (palés o contenedores especiales para aviones).
                 td 
                   | - Cumple normas IATA.

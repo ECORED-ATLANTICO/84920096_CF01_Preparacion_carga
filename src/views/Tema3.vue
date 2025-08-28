@@ -220,13 +220,13 @@
               //- Internacional
               tr.bg-color-white
                 td(rowspan="4") Internacional
-                td ISO 780:1997
+                td ISO 780:1997.
                 td Establece los requisitos para el marcado y rotulación de los embalajes de carga, definiendo los símbolos gráficos que deben usarse para indicar la correcta manipulación, almacenamiento y transporte de mercancías. Incluye directrices sobre la información que debe contener el marcado, como nombre y dirección del remitente y destinatario, peso bruto y neto, número de identificación del embalaje.
               tr.bg-color-11
-                td ISO 7000
+                td ISO 7000.
                 td Complementa a la ISO 780 al establecer símbolos gráficos para el uso en equipos y embalajes, garantizando comprensión universal y superando barreras idiomáticas.
               tr.bg-color-white
-                td Norma ONU
+                td Norma ONU.
                 td Específica para el transporte de mercancías peligrosas, esta normativa define los requisitos de marcado y rotulación de los embalajes que contienen sustancias peligrosas, incluyendo símbolos y códigos para identificar el tipo de peligro y las precauciones necesarias.
               tr.bg-color-11
                 td ADR (Acuerdo Europeo sobre el Transporte de Mercancías Peligrosas por Carretera).
@@ -235,7 +235,7 @@
               //- Nacional
               tr.bg-color-white
                 td(rowspan="2") Nacional
-                td NTC 1692
+                td NTC 1692.
                 td Regula el rotulado y etiquetado de embalajes y envases de mercancías peligrosas. Exige identificación clara y visible, etiquetas resistentes a la intemperie, colocación externa y tamaños mínimos (10 x 10 cm para bultos, 25 x 25 cm para vehículos/contenedores).
               tr.bg-color-11
                 td Decreto 1609 de 2002 y Decreto Único Reglamentario 1079 de 2015.
