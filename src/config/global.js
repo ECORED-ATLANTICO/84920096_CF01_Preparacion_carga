@@ -209,7 +209,7 @@ export default {
   ],
   glosario: [
     {
-      termino: '<em>Big bag</em>',
+      termino: '<em>Big bags</em>',
       significado:
         'sacos gigantes (1-2 t) usados para transportar graneles sólidos, que reducen pérdidas y facilitan el manejo con grúas.',
     },

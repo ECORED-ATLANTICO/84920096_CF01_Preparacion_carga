@@ -126,7 +126,7 @@
                     p.mb-0 Reactividad:  sensibilidad al oxígeno, agua o luz.
                   li.d-flex
                     i.fas.fa-circle-check
-                    p.mb-0 Punto de inflamabilidad:  clasificación de combustibles (Diésel: >60 °C).
+                    p.mb-0 Punto de inflamabilidad:  clasificación de combustibles (Diésel: > 60 °C).
                   li.d-flex
                     i.fas.fa-circle-check
                     p.mb-0 PH y corrosividad:  ácidos (pH < 7) vs. álcalis (pH > 7) para almacenamiento.
@@ -615,7 +615,7 @@
                   | - Apilables.
                 td Piezas automotrices y frutas.
               tr.bg-color-11
-                td <em>Big Bags</em>
+                td <em>Big bags</em>
                 td Sacos gigantes (1–2 t) para graneles sólidos (harina, minerales, químicos, entre otros).
                 td 
                   | - Reduce pérdidas.
