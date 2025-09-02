@@ -616,7 +616,7 @@
                 td Piezas automotrices y frutas.
               tr.bg-color-11
                 td <em>Big bags</em>
-                td Sacos gigantes (1–2 t) para graneles sólidos (harina, minerales, químicos, entre otros).
+                td Sacos gigantes (1-2 t) para graneles sólidos (harina, minerales, químicos, entre otros).
                 td 
                   | - Reduce pérdidas.
                   br
