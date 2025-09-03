@@ -640,7 +640,7 @@
                 td Paquetes y láminas de acero.
               tr.bg-color-white
                 td ULD (aéreo)
-                td Unidades de carga aérea (palés o contenedores especiales para aviones).
+                td Unidades de carga aérea (<em>palets</em> o contenedores especiales para aviones).
                 td 
                   | - Cumple normas IATA.
                   br
