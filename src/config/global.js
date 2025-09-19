@@ -75,7 +75,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Manipulación de carga',
+        titulo: 'Manipulación de la carga',
         desarrolloContenidos: true,
         subMenu: [
           {
